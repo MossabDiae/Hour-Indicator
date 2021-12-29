@@ -11,10 +11,10 @@ will be inverted and go back to normal again (mimicking shock effect in cartoons
 `crontab -u USERNAME -e`
 
 if this is your first time running crontab it'll ask for default text editor (went with nano)
-[](images/newcron.png)
+![](images/newcron.png)
 add the following :
 `0 * * * * bash SET_PATH_HERE/invert_color.sh`
-[](images/cronsyntx.png)
+![](images/cronsyntx.png)
 1. save CTRL-O , exit CTRL+X , Done.
 # Features 
 see Description. 
